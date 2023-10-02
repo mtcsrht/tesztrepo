@@ -23,6 +23,10 @@ namespace CA231002
             {
                 Console.WriteLine("wrong answer.");
             }
+
+            Console.WriteLine("What is your favourite color?");
+            Console.Write(">>>> ");
+            resp = Console.ReadLine();
         }
     }
 }
