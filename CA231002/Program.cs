@@ -27,6 +27,13 @@ namespace CA231002
             Console.WriteLine("What is your favourite color?");
             Console.Write(">>>> ");
             resp = Console.ReadLine();
+            if (resp.ToLower().Contains("blue"))
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("This?");
+            }
+            
+            Console.ReadKey();
         }
     }
 }
