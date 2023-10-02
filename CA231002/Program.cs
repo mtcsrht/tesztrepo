@@ -32,6 +32,11 @@ namespace CA231002
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("This?");
             }
+            else if(resp.ToLower().Contains("green"))
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("This?");
+            }
             
             Console.ReadKey();
         }
