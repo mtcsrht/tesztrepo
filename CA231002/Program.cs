@@ -12,6 +12,17 @@ namespace CA231002
         {
             string name = "Mate";
             Console.WriteLine($"Hello, {name}");
+            Console.WriteLine($"{name}, do you like cats?");
+            Console.Write(">>> ");
+            string resp = Console.ReadLine();
+            if (resp.ToLower().StartsWith("yes"))
+            {
+                Console.WriteLine("me too!");
+            }
+            else
+            {
+                Console.WriteLine("wrong answer.");
+            }
         }
     }
 }
